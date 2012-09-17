@@ -3,7 +3,7 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
-   <meta name="author" content="{{ site.author.name }}" />
+   <meta name="author" content="{{ site.author.name }} {{ site.author.lastname}}" />
    <!--<link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />-->
 
    <!-- syntax highlighting CSS -->
@@ -22,11 +22,11 @@
     <div class="title">
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
 
-      <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
+      <!--<a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>-->
       <!--<a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>-->
-      <a class="extra" href="/about">About</a>
+      <a class="extra" href="/about">About Me</a>
     </div>
   
     {{ content }}

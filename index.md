@@ -7,7 +7,7 @@ title: Amritha Prasad
   <ul class="listing">
     {% for post in site.posts %}
     <li>
-      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+       <a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date: "%B %e, %Y" }}</span>
     </li>
     {% endfor %}
   </ul>
