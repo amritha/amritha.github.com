@@ -18,7 +18,8 @@ tags: []
 
 <b>I Wasn't Quite Ready To Give Up</b>
 
-<p>As the tow truck started taking us back to San Francisco, an irrational feeling of desperation came over me. It had been a crappy, stressful week. Hell, it had been a crappy, stressful year, and I needed something to bring the spring back in my step. I wanted to take fate into my own hands and prove that I could overcome the night's misfortunes. I was determined to make it to this movie and enjoy it, damn it. I immediately proceeded to tweet and text all of my friends to see if there was some way that I could borrow a car just for the night. Most people ignored me, and one close friend even texted me back with: </p>
+<p>As the tow truck started taking us back to San Francisco, an irrational feeling of desperation came over me. It had been a crappy, stressful week. Hell, it had been a crappy, stressful year, and I needed something to bring the spring back in my step. I wanted to take fate into my own hands and prove that I could overcome the night's misfortunes. I was determined to make it to this movie and enjoy it, damn it
+	. I immediately proceeded to tweet and text all of my friends to see if there was some way that I could borrow a car just for the night. Most people ignored me, and one close friend even texted me back with: </p>
 
 <em>"There are many services for that. I am not one of them."</em>
 
