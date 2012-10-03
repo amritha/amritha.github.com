@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Announcing ILoveYouSF.com"
-description: ""
-category: 
-tags: []
+
 ---
-{% include JB/setup %}
+
 
 <b> Meet ILoveYouSF.com </b>
 

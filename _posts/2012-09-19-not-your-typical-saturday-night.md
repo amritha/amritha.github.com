@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Not Your Typical Saturday Night"
-description: ""
-category: 
-tags: []
+
 ---
-{% include JB/setup %}
+
 
 <b>An Introduction To My Bollywood Addiction</b>
 

@@ -1,11 +1,9 @@
 ---
 layout: post
 title: "Getting started with Rails_Admin and Setting Your Admins"
-description: ""
-category: 
-tags: []
+
 ---
-{% include JB/setup %}
+
 
 <p><a href="http://www.twitter.com/sabrina">Sabrina Majeed</a> and I decided to get together on Labor Day Weekend and put together a Hackathon project from scratch (launch date pending her return from London). While she was busy with the front end, I took the plunge into the world of Ruby on Rails. I learned some very very basic lessons along the way, so I'll share little snippets of these things for those of you looking to jump on the bandwagon as well. </p>
 
