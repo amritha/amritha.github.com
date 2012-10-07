@@ -4,12 +4,22 @@ title: Amritha Prasad
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
+ 
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    
+    <span> {{ post.date | date_to_string }}
+  	</span> <br />
+  	<div id="post">
+     <h1><a href="{{ post.url }}" >{{ post.title }}</a></h1>
+      
+  	{{post.content}}
+  	  </div>
+  	{% if post.title !="Introduction" %}
+  	<hr />
+  	{% endif %}
     {% endfor %}
-  </ul>
+
+  
 
   
 
