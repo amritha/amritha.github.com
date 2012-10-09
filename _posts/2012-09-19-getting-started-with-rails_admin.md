@@ -9,7 +9,7 @@ title: "Getting started with Rails_Admin and Setting Your Admins"
 
 <p>After I set up the framework for our site, I realized that we needed an easy way to manage content from a community. After a few seconds of google searching, I discovered the <a href="https://github.com/sferik/rails_admin">Rails_Admin</a> gem. All I had to do was install a few things and I had an easy to use GUI that could manage all the data on my site.</p>
 
-<h3>Step 1:</h3>
+<div class="lemphasis"><b>Step 1:</b></div>
 
 Add the Rails_Admin gem to your Gemfile 
 
@@ -17,7 +17,7 @@ Add the Rails_Admin gem to your Gemfile
 
 <br />
 
-<h3>Step 2:</h3>
+<div class="lemphasis"><b>Step 2:</b></div>
 
 Install the gem by running
 	
@@ -25,7 +25,7 @@ Install the gem by running
 
 <br />
 
-<h3>Step 3:</h3>
+<div class="lemphasis"><b>Step 3:</b></div>
 
 Run a generator to install RailsAdmin and Devise. 
 
@@ -33,7 +33,7 @@ Run a generator to install RailsAdmin and Devise.
 
 Devise is pretty awesome because it'll set up a whole user system for your app. It takes care of authentication and generates all the login/registration for you. So during the installation, make sure to say yes when you are asked if you want to install Devise. Only good things can come from this.
 
-<h3>Step 4:</h3>
+<div class="lemphasis"><b>Step 4:</b></div>
 
 Finally run:
 
@@ -51,11 +51,13 @@ Go to localhost:3000/admin and you'll see your beautiful admin dashboard! You ca
 
 At this point in my own adventures, I went down the path of using a gem called <a href="https://github.com/ryanb/cancan">CanCan</a> to create this admin role. After consulting Nathan, one of the rails engineers that I work with, he told me that this was actually a far more complicated method of accomplishing my goal. For those of you who do want a more complex role structure in your app, I would recommend that you go with CanCan. However, if you're a n00b like me, you can take the super straightforward approach that I will outline below.
 
-<h3>Step 5:</h3>
+<div class="lemphasis">
+	<b>Step 5:</b>
+</div>
 
 Rails_admin generated a config file in the initializers folder that lets you manage how the admin feature works. This folder is where all plugins and gems are meant to be configured, so this is definitely the place to go if you want to specify who has access to the admin area. 
 
-<font color="green">app/config/initializers/rails_admin.rb</font>
+<font color="#00786e">app/config/initializers/rails_admin.rb</font>
 
 	config.current_user_method { current_user } # auto-generated
     config.authenticate_with {} # leave it to authorize
@@ -71,7 +73,7 @@ Basically I am generating a boolean variable to check if the e-mail address comi
 
 The only piece of the puzzle that we are missing is defining the actual ADMIN_E-MAILS array, so go ahead and define that at the very top of your config file. If you are working with a partner like I am, it'll be an array with 2 emails.
 
-<font color="green">app/config/initializers/rails_admin.rb</font>
+<font color="#00786e">app/config/initializers/rails_admin.rb</font>
 
 	ADMIN_EMAILS= ['youremail@email.com', 'email2@email.com']
 

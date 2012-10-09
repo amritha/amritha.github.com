@@ -35,7 +35,7 @@ p {
 }
 
 a {
-  color: #00a;
+  color: #fead26;
   text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ a:hover {
 }
 
 a:visited {
-  color: #a0a;
+  color: #fead26;
   text-decoration: none;
 }
 
@@ -53,6 +53,8 @@ table {
   font-size: inherit;
   font: 100%;
 }
+
+
 
 /*****************************************************************************/
 /*
@@ -71,7 +73,7 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
+    
     font-size: 80%;
   }
 
@@ -98,7 +100,7 @@ hr {
 
 .site {
   font-size: 110%;
-  text-align: justify;
+  text-align: left;
   width: 40em;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
@@ -108,11 +110,29 @@ hr {
   color: #a00;
   font-weight: bold;
   margin-bottom: 2em;
+
+}
+
+.emphasis
+{
+  font-size: 18px;
+  text-transform:uppercase;
+}
+
+.lemphasis 
+{
+  text-transform:uppercase;
 }
 
   .site .title a {
     color: #fead26;
     text-decoration: none;
+    float: left;
+
+  }
+
+  .site .title a.home{
+    font-size:20px;
   }
 
   .site .title a:hover {
@@ -123,10 +143,11 @@ hr {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
+    float:right;
   }
 
   .site .title a.extra:hover {
-    color: black;
+    color: #fead26;
   }
 
   .site .meta {
@@ -139,6 +160,12 @@ hr {
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
+    text-align: center;
+    text-transform:uppercase;
+
+
+    
+    
   }
 
     .site .footer .contact {
@@ -171,6 +198,13 @@ hr {
 }
 
   /* standard */
+ 
+
+  #post a.heading{
+    font-size: 18px;
+    color: #000;
+    text-transform:uppercase;
+  }
 
   #post pre {
     border: 1px solid #ddd;
@@ -239,3 +273,43 @@ hr {
   padding: 0 20px 0 0;
   color: #e0e0e0;
 }
+
+/*****************************************************************************/
+/*
+/* Portfolio
+/*
+/*****************************************************************************/
+
+img.work{
+width:100%;
+margin-bottom: 1px;
+position: relative;
+
+} 
+
+img.work:hover
+{
+border-left: 8px solid #fead26;
+
+
+}
+
+.cube table{
+
+  width: 100%;
+  text-transform:uppercase;
+  font-size: 12px;
+  font-weight:bold;
+
+}
+
+/*****************************************************************************/
+/*
+/* Archive
+/*
+/*****************************************************************************/
+
+#archive a{
+    color: #000;
+    text-transform:uppercase;
+  }

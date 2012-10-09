@@ -4,13 +4,13 @@ title: Amritha Prasad
 ---
 
 <div id="home">
- 
+ <br /> <br />
     {% for post in site.posts %}
     
     <span> {{ post.date | date_to_string }}
   	</span> <br />
   	<div id="post">
-     <h1><a href="{{ post.url }}" >{{ post.title }}</a></h1>
+     <h1><a href="{{ post.url }}" class="heading" >{{ post.title }}</a></h1>
       
   	{{post.content}}
   	  </div>
