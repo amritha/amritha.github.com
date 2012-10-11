@@ -303,6 +303,27 @@ border-left: 8px solid #fead26;
 
 }
 
+#portheader
+{
+
+background-color: #000;
+width: 100%;
+margin-top: 0px;
+padding-top: 0px;
+
+
+}
+
+#portheader p{
+
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1px;
+  padding: 10px;
+  font-size: 20px;
+}
+
 /*****************************************************************************/
 /*
 /* Archive
